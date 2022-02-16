@@ -1,0 +1,181 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+.navbar {
+	font-size: 16px;
+	display: flex;
+	text-decoration: none;
+	justify-content: space-between;
+}
+
+.navbar-brand {
+	text-decoration: none;
+	padding: 10px;
+}
+
+.navbar-brand a {
+	color: blueviolet;
+	font-weight: bold;
+}
+
+.navbar-menu a:hover {
+	color: blue;
+}
+
+ul {
+	margin-top: 24px;
+}
+
+ul li {
+	display: inline;
+	margin-right: 32px;
+}
+ul li a {
+	color: black;
+	text-decoration: none;
+	text-align: end;
+}
+
+/* Hero */
+.hero {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+}
+
+.hero-text {
+	width: 500px;
+}
+
+.hero-text h1,
+.hero-text h4 {
+	margin-bottom: 20px;
+}
+
+.hero-text h1 {
+	font-size: 44px;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+.hero-text h4 {
+	font-size: 16px;
+}
+
+.hero-text button {
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #ff6464;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.hero-text button:hover {
+	background-color: burlywood;
+}
+
+.hero-img img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+}
+
+/* Posts */
+.post {
+	background-color: #edf7fa;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 70px;
+}
+
+.post-head {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.post-head h3 {
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 60px;
+}
+
+.post-head a {
+	font-size: 16px;
+	color: #00abcc;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+.post-body {
+	display: flex;
+	gap: 20px;
+}
+
+.post-body-detail {
+	background-color: #ffffff;
+	padding: 20px 25px;
+	border-radius: 10px;
+	line-height: 24px;
+}
+
+.post-body-detail h2 {
+	font-size: 26px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.post-body-info,
+.post-body-detail p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+/* Features */
+.feature {
+	padding: 30px 70px;
+	margin-top: 20px;
+}
+
+.feature-detail {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.feature-detail-text h2 {
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer-social img {
+	width: 24px;
+	height: 24px;
+	margin: 24px 0 12px 24px;
+}
+
+.footer-copy p {
+	margin-bottom: 24px;
+}
+
+.footer-copy a {
+	text-decoration: none;
+}
