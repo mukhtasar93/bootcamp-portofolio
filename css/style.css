@@ -4,11 +4,13 @@
 	padding: 0;
 }
 
+/* Container */
 .container {
 	width: 1200px;
 	margin: auto;
 }
 
+/* Navbar Menu */
 .navbar {
 	font-size: 16px;
 	display: flex;
@@ -20,6 +22,13 @@
 	text-decoration: none;
 	padding: 10px;
 }
+
+/* .navbar-brand span {
+	color: #142850;
+	font-size: 24px;
+	padding: 10px;
+	margin-top: -20px;
+} */
 
 .navbar-brand a {
 	color: blueviolet;
@@ -68,20 +77,24 @@ ul li a {
 
 .hero-text h4 {
 	font-size: 16px;
+	font-weight: 300;
+	text-align: justify;
+	line-height: 32px;
 }
 
 .hero-text button {
-	font-size: 20px;
+	font-size: 16px;
 	color: #ffffff;
-	background-color: #ff6464;
-	padding: 10px;
+	background-color: blue;
+	padding: 10px 20px;
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;
+	margin-bottom: 32px;
 }
 
 .hero-text button:hover {
-	background-color: burlywood;
+	background-color: blueviolet;
 }
 
 .hero-img img {
@@ -95,7 +108,7 @@ ul li a {
 	background-color: #edf7fa;
 	display: flex;
 	flex-direction: column;
-	padding: 30px 70px;
+	padding: 30px 60px;
 }
 
 .post-head {
@@ -118,6 +131,10 @@ ul li a {
 	margin-bottom: 10px;
 }
 
+.post-head a:hover {
+	color: blueviolet;
+}
+
 .post-body {
 	display: flex;
 	gap: 20px;
@@ -127,19 +144,21 @@ ul li a {
 	background-color: #ffffff;
 	padding: 20px 25px;
 	border-radius: 10px;
-	line-height: 24px;
+	/* line-height: 24px; */
 }
 
 .post-body-detail h2 {
 	font-size: 26px;
 	font-weight: 500;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .post-body-info,
 .post-body-detail p {
 	font-size: 16px;
+	text-align: justify;
 	margin-bottom: 10px;
+	line-height: 32px;
 }
 
 /* Features */
@@ -182,8 +201,11 @@ ul li a {
 	margin-top: 30px;
 	font-size: 16px;
 	color: #21243d;
+	line-height: 32px;
+	text-align: justify;
 }
 
+/* Footer */
 .footer {
 	text-align: center;
 }
@@ -191,13 +213,18 @@ ul li a {
 .footer-social img {
 	width: 24px;
 	height: 24px;
-	margin: 24px 0 12px 24px;
+	margin: 24px 0 24px 24px;
 }
 
 .footer-copy p {
-	margin-bottom: 24px;
+	margin-bottom: 32px;
 }
 
 .footer-copy a {
 	text-decoration: none;
+	color: blue;
+}
+
+.footer-copy a:hover {
+	color: blueviolet;
 }
